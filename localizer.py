@@ -17,9 +17,7 @@ def initialize_beliefs(grid):
 def sense(color, grid, beliefs, p_hit, p_miss):
     new_beliefs = []
     Sum = 0
-    #
-    # TODO - implement this in part 2
-    #
+    
     for row in range(0, len(grid)):
         blf=[]
         for col in range(0, len(grid[0])):
